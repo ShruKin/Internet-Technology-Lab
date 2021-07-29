@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: 100;
+  font-family: "Open Sans", sans-serif;
+}
+
+.appbar {
+  background-color: #3c5186;
+  color: aliceblue;
+  line-height: 2.5rem;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.content {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 20% 55% 25%;
+}
+
+.content > div:nth-child(2) {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.side-nav div {
+  background-color: #9b72aa;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+#video {
+  position: relative;
+  padding-bottom: 56.25%;
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
